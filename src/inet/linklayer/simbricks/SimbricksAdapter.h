@@ -6,8 +6,8 @@
 namespace inet {
 
 extern "C" {
-#include <simbricks/network/if.h>
-#include <simbricks/network/proto_omnet.h>
+#include <simbricks/netif/netif.h>
+#include <simbricks/proto/network.h>
 }
 
 class INET_API SimbricksAdapter : public cSimpleModule{
